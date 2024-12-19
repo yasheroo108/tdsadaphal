@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.buttoncontainer {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: none;
+    align-self: center;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 1200px;
+}
+
+.section {
+    display: flex;
+    padding: none;
+    margin: none;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+
+.icon {
+    width: 128.5px;
+    height: 150.5px;
+}
+
+#c2canvasdiv {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.header {
+    background-color: rgb(91, 105, 130);
+}
+
+.game {
+    height: 100%;
+    width: 100%;
+    display: inline-block
+}
+
+#c2canvasdiv {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+}
+
+#back.button {
+    margin-left: 0px;
+}
